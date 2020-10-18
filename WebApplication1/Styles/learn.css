@@ -1,0 +1,85 @@
+﻿.imgEmotionLight {
+    position: fixed;
+    background-color: #4cff00;
+    
+    opacity: 0;
+    z-index: 1;
+}
+
+.imgEmotion {
+    position: fixed;
+    pointer-events:none;
+    z-index: 0;
+    width:7%;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.imgOverlay {
+    opacity: 0;
+    position: fixed;
+    pointer-events:none;
+    z-index: 0;
+    width:7%;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#div-emotion-1 {
+    left:6.375%;
+}
+
+#div-emotion-2 {
+    left:19.75%;
+}
+
+#div-emotion-3 {
+    left:33.125%;
+}
+
+#div-emotion-4 {
+    left:46.5%;
+}
+
+#div-emotion-5 {
+    left:59.875%;
+}
+
+#div-emotion-6 {
+    left:73.25%;
+}
+
+#div-emotion-7 {
+    left:86.625%;
+}
+
+.divEmotion {
+    top:2%;
+    position:fixed;
+}
+
+
+.emotionsContainer {
+    position:absolute;
+}
+
+#videoContainer {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+  background-color: #ffffff;
+}
+
+#videoContainer video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit:fill;
+}

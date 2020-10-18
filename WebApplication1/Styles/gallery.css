@@ -1,0 +1,10 @@
+﻿#gallery-back {
+    position:fixed;
+    width: 4%;
+}
+
+.gallery-thumbnail-button {
+    float: left;
+    width: 46%;
+    margin: 2%;
+}

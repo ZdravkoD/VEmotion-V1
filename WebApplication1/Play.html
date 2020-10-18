@@ -1,0 +1,87 @@
+﻿<link rel="stylesheet" href="Styles/learn.css?23" />
+<link rel="stylesheet" href="Styles/learn_video_controls.css?23" />
+<link rel="stylesheet" href="Styles/common.css?23" />
+
+
+<div id="top_controls">
+    <button id="learn-back-to-main-menu" class="hover_button"> <img id="image-button-back" src="Images/ic_button_back.png" class="button_image" draggable="false"/> </button>
+</div>
+
+<div id="videoContainer">
+    <video id="mainVid1" poster="Images/loading.gif">
+        <source src="Videos/Sample1.mp4" type="video/mp4"/>
+    </video>
+</div>
+<div class="emotionsContainer" draggable="false" >
+    <div id="div-emotion-1" class="divEmotion">
+            <div>ANGERR</div>
+        <div class="imgEmotionLight" id="emotion-anger-light">&nbsp;</div>
+        <img src="Images/anger.png" class="imgEmotion" id="emotion-anger" />
+        <img src="Images/right.png" class="imgOverlay" id="anger-overlay" />
+    </div>
+
+    <div id="div-emotion-2" class="divEmotion">
+            <div>DISGUST</div>
+        <div class="imgEmotionLight" id="emotion-disgust-light"></div>
+        <img src="Images/disgust.png" class="imgEmotion" id="emotion-disgust" />
+        <img src="Images/right.png" class="imgOverlay" id="disgust-overlay" />
+    </div>
+
+    <div id="div-emotion-3" class="divEmotion">
+            <div>FEAR</div>
+        <div class="imgEmotionLight" id="emotion-fear-light"></div>
+        <img src="Images/fear.png" class="imgEmotion" id="emotion-fear" />
+        <img src="Images/right.png" class="imgOverlay" id="fear-overlay" />
+    </div>
+
+    <div id="div-emotion-4" class="divEmotion">
+            <div>JOY</div>
+        <div class="imgEmotionLight" id="emotion-joy-light"></div>
+        <img src="Images/joy.png" class="imgEmotion" id="emotion-joy" />
+        <img src="Images/right.png" class="imgOverlay" id="joy-overlay" />
+    </div>
+
+    <div id="div-emotion-5" class="divEmotion">
+            <div>NEUTRAL</div>
+        <div class="imgEmotionLight" id="emotion-neutral-light"></div>
+        <img src="Images/neutral.png" class="imgEmotion" id="emotion-neutral" />
+        <img src="Images/right.png" class="imgOverlay" id="neutral-overlay" />
+    </div>
+
+    <div id="div-emotion-6" class="divEmotion">
+            <div>SAD</div>
+        <div class="imgEmotionLight" id="emotion-sad-light"></div>
+        <img src="Images/sad.png" class="imgEmotion" id="emotion-sad" />
+        <img src="Images/right.png" class="imgOverlay" id="sad-overlay" />
+    </div>
+
+    <div id="div-emotion-7" class="divEmotion">
+            <div>SURPRISE</div>
+        <div class="imgEmotionLight" id="emotion-surprise-light"></div>
+        <img src="Images/surprise.png" class="imgEmotion" id="emotion-surprise" />
+        <img src="Images/right.png" class="imgOverlay" id="surprise-overlay" />
+    </div>
+
+</div>
+
+<div id="nextVid">
+    <button id="button_next" class="hover_button"> <img id="image-gallery" src="Images/ic_gallery.png" class="button_image" draggable="false" /></button>
+</div>
+
+<div class="video__control">
+    <div id="video-progress-bar">
+        <div id="video-progress-filling">&nbsp;</div>
+        <span id="video-progress"></span>
+    </div>
+
+    <button id="button-fullscreen" class="video__control_buttons hover_button"> <img id="image-fullscreen" src="Images/ic_media_fullscreen.png" class="button_image" draggable="false" /> </button>
+    <button id="button-pause" class="hover_button"> <img id="image-gallery" src="Images/ic_media_pause.png" class="button_image" draggable="false" /> </button>
+
+
+    <div id="currentVideoTime">--:-- / --:--</div>
+</div>
+
+<script>
+    var url = "Scripts/My/Play.js?123";
+    $.getScript(url);
+</script>

@@ -1,0 +1,111 @@
+#video-progress-bar, #video-progress {
+    margin-bottom: 0.5%;
+    height: 20px;
+}
+#video-progress-bar, #button-fullscreen {
+    margin-left: 2%;
+}
+
+.video__control_buttons, #currentVideoTime {
+    bottom: 3%;
+}
+
+
+#nextVid {
+    cursor:pointer;
+    position: fixed;
+    margin-left: 50%;
+    margin-top: 25%;
+    display: none;    
+    background-color: #045123;
+    width: 3%;
+} 
+
+#video-progress-bar	{
+    cursor: pointer;
+    margin-right: 2%;
+    /* margin-left + margin-right */
+    width:96%;
+    overflow: hidden;
+    position: fixed;
+    bottom:0;
+}
+
+#video-progress-filling {
+    height: 4px;
+    width: 100%;
+    margin-top:8px;
+    background-color: #ff4081;
+    overflow: hidden;
+    position: relative;
+}
+
+#video-progress {
+    position:fixed;
+    width: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background-color: #ff4081;
+    bottom:0;
+}
+
+.video__control_buttons {
+    position: fixed;
+    width: 8%;
+    z-index: 0;
+}
+
+#button-gallery {
+    position: fixed;
+    width: 5%;
+    z-index: 0;
+    margin-left: 12%;
+    bottom: 3%;
+}    
+
+#button-skipVid {
+    position: fixed;
+    width: 5%;
+    z-index: 0;
+    margin-left: 80%;
+    bottom: 3%;
+}
+
+#button_rewind {
+    position: fixed;
+    width: 5%;
+    z-index: 0;
+    margin-left: 75%;
+    bottom: 3%;
+}
+
+#button-pause {
+    position: fixed;
+    width: 5%;
+    z-index: 0;
+    margin-left: 7%;
+    bottom: 3%;
+}   
+
+
+#currentVideoTime {
+    position:fixed;
+    background-color: #D3D3D37E;
+    font-size:40;
+    font-weight:bold;
+    text-align:center;
+    right:2%;
+    height:48px;
+    line-height:48px;
+    width: 12%;
+}
+
+#button-fullscreen {
+    width: 5%;
+}
+
+#learn-back-to-main-menu {
+    position:fixed;
+    width: 4%;
+}

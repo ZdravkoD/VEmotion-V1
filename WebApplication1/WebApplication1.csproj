@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3B7251E2-B827-4532-B71E-0D6F3F7EACF9}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication1</RootNamespace>
+    <AssemblyName>WebApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Gallery.html" />
+    <Content Include="Images\anger.png" />
+    <Content Include="Images\disgust.png" />
+    <Content Include="Images\favicon.ico" />
+    <Content Include="Images\fear.png" />
+    <Content Include="Images\ic_button_back.png" />
+    <Content Include="Images\ic_gallery.png" />
+    <Content Include="Images\ic_media_ff.png" />
+    <Content Include="Images\ic_media_fullscreen.png" />
+    <Content Include="Images\ic_media_pause.png" />
+    <Content Include="Images\ic_media_play.png" />
+    <Content Include="Images\ic_media_rew.png" />
+    <Content Include="Images\ic_next.png" />
+    <Content Include="Images\ic_rewind.png" />
+    <Content Include="Images\image.png" />
+    <Content Include="Images\joy.png" />
+    <Content Include="Images\loading.gif" />
+    <Content Include="Images\neutral.png" />
+    <Content Include="Images\pause-512.png" />
+    <Content Include="Images\right.png" />
+    <Content Include="Images\sad.png" />
+    <Content Include="Images\surprise.png" />
+    <None Include="manifest.json" />
+    <Content Include="Images\test.gif" />
+    <Content Include="Images\thumbnail-he-joy-anticipation.png" />
+    <Content Include="Images\thumbnail-he-joy-anticipation_tablet.png" />
+    <Content Include="Images\thumbnail-he-joy-laughing.png" />
+    <Content Include="Images\thumbsNew\001 he-sadness++.png" />
+    <Content Include="Images\thumbsNew\001-2 she_joy++.png" />
+    <Content Include="Images\thumbsNew\002 he-anger++.png" />
+    <Content Include="Images\thumbsNew\005 he-anger.png" />
+    <Content Include="Images\thumbsNew\007 he-joy++.png" />
+    <Content Include="Images\thumbsNew\009 he-anger+%28disapointment%29.png" />
+    <Content Include="Images\thumbsNew\anger-002 he-joy%28short%29+anger%28long%29.png" />
+    <Content Include="Images\thumbsNew\anger-002 he-sadness++.png" />
+    <Content Include="Images\thumbsNew\anger-003 he-anger++.png" />
+    <Content Include="Images\thumbsNew\anger-003 he-sadness++ %28+anger%29.png" />
+    <Content Include="Images\thumbsNew\anger-004 he-anger++ %28short joy%29.png" />
+    <Content Include="Images\thumbsNew\anger-006 he-anger.png" />
+    <Content Include="Images\thumbsNew\anger-010 he-anger++.png" />
+    <Content Include="Images\thumbsNew\joy-001 he-joy+%28satisfaction%29.png" />
+    <Content Include="Images\thumbsNew\joy-002 he-joy%28short%29+anger%28long%29.png" />
+    <Content Include="Images\thumbsNew\joy-003 he-joy+%28cut3-14s%29.png" />
+    <Content Include="Images\thumbsNew\joy-004 he-anger++ %28short joy%29.png" />
+    <Content Include="Images\thumbsNew\joy-004 he-joy+.png" />
+    <Content Include="Images\thumbsNew\joy-005 he-joy%28anticipation%29.png" />
+    <Content Include="Images\thumbsNew\joy-006 he-joy++.png" />
+    <Content Include="Images\thumbsNew\joy-008 he-anger%28+laughing%29.png" />
+    <Content Include="Images\thumbsNew\joy-008 he-joy%28+surprise%29.png" />
+    <Content Include="Images\thumbsNew\joy-009 he-joy%28anticipation_new_phone%29.png" />
+    <Content Include="Images\thumbsNew\joy-010 he-joy+%28anticipation_tablet%29.png" />
+    <Content Include="Images\thumbsNew\joy-011 he-joy%28laughing%29.png" />
+    <Content Include="Images\thumbsNew\neutral-001 he-surprise.png" />
+    <Content Include="Images\thumbsNew\neutral-003 he-anger++.png" />
+    <Content Include="Images\thumbsNew\neutral-003 he-joy+%28cut3-14s%29.png" />
+    <Content Include="Images\thumbsNew\neutral-003 he-sadness++ %28+anger%29.png" />
+    <Content Include="Images\thumbsNew\neutral-004 he-anger++ %28short joy%29.png" />
+    <Content Include="Images\thumbsNew\neutral-004 he-joy+.png" />
+    <Content Include="Images\thumbsNew\neutral-005 he-joy%28anticipation%29.png" />
+    <Content Include="Images\thumbsNew\neutral-008 he-anger%28+laughing%29.png" />
+    <Content Include="Images\thumbsNew\neutral-008 he-joy%28+surprise%29.png" />
+    <Content Include="Images\thumbsNew\neutral-009 he-joy%28anticipation_new_phone%29.png" />
+    <Content Include="Images\thumbsNew\neutral-010 he-joy+%28anticipation_tablet%29.png" />
+    <Content Include="Images\thumbsNew\neutral-011 he-joy%28laughing%29.png" />
+    <Content Include="Images\thumbsNew\sad-001 he-anger+ %28 +sadness%29.png" />
+    <Content Include="Images\thumbsNew\sad-002 he-sadness++.png" />
+    <Content Include="Images\thumbsNew\sad-003 he-sadness++ %28+anger%29.png" />
+    <Content Include="Images\thumbsNew\sad1-002 he-sadness++.png" />
+    <Content Include="Images\thumbsNew\surprise-001 he-surprise.png" />
+    <Content Include="Images\thumbs\001 he-joy+%28satisfaction%29.png" />
+    <Content Include="Images\thumbs\001 he-sadness++.png" />
+    <Content Include="Images\thumbs\001 he-surprise.png" />
+    <Content Include="Images\thumbs\001-2 she_joy++.png" />
+    <Content Include="Images\thumbs\002 he-anger++.png" />
+    <Content Include="Images\thumbs\002 he-joy%28short%29+anger%28long%29.png" />
+    <Content Include="Images\thumbs\002 he-sadness++.png" />
+    <Content Include="Images\thumbs\003 he-anger++.png" />
+    <Content Include="Images\thumbs\003 he-joy+%28cut3-14s%29.png" />
+    <Content Include="Images\thumbs\003 he-sadness++ %28+anger%29.png" />
+    <Content Include="Images\thumbs\004 he-anger++ %28short joy%29.png" />
+    <Content Include="Images\thumbs\004 he-joy+.png" />
+    <Content Include="Images\thumbs\005 he-anger.png" />
+    <Content Include="Images\thumbs\005 he-joy%28anticipation%29.png" />
+    <Content Include="Images\thumbs\006 he-anger.png" />
+    <Content Include="Images\thumbs\006 he-joy++.png" />
+    <Content Include="Images\thumbs\007 he-joy++.png" />
+    <Content Include="Images\thumbs\008 he-anger%28+laughing%29.png" />
+    <Content Include="Images\thumbs\008 he-joy%28+surprise%29.png" />
+    <Content Include="Images\thumbs\009 he-anger+%28disapointment%29.png" />
+    <Content Include="Images\thumbs\009 he-joy%28anticipation_new_phone%29.png" />
+    <Content Include="Images\thumbs\010 he-anger++.png" />
+    <Content Include="Images\thumbs\010 he-joy+%28anticipation_tablet%29.png" />
+    <Content Include="Images\thumbs\011 he-joy%28laughing%29.png" />
+    <Content Include="Images\won.png" />
+    <Content Include="Images\wrong.png" />
+    <Content Include="Images\_ic_button_back.png" />
+    <Content Include="Images\_ic_gallery.png" />
+    <Content Include="index.html" />
+    <Content Include="Play.html" />
+    <Content Include="MainMenu.html" />
+    <Content Include="packages.config" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <None Include="Properties\PublishProfiles\MyProfile.pubxml" />
+    <Content Include="Scripts\My\Utils.js" />
+    <Content Include="VideosNew\004 he-anger++ %28short.joy%29.mp4" />
+    <Content Include="VideosNew\Anger_Sadness\001 he-anger+ %28 +sadness%29.mp4" />
+    <Content Include="VideosNew\Anger_Sadness\001 he-sadness++.mp4" />
+    <Content Include="VideosNew\Anger_Sadness\002 he-anger++.mp4" />
+    <Content Include="VideosNew\Anger_Sadness\002 he-sadness++.mp4" />
+    <Content Include="VideosNew\Anger_Sadness\003 he-anger++.mp4" />
+    <Content Include="VideosNew\Anger_Sadness\003 he-sadness++ %28+anger%29.mp4" />
+    <Content Include="VideosNew\Anger_Sadness\004 he-anger++ %28short.joy%29.mp4" />
+    <Content Include="VideosNew\Anger_Sadness\005 he-anger.mp4" />
+    <Content Include="VideosNew\Anger_Sadness\006 he-anger-old.mp4" />
+    <Content Include="VideosNew\Anger_Sadness\006 he-anger.mp4" />
+    <Content Include="VideosNew\Anger_Sadness\007 he-anger+.mp4" />
+    <Content Include="VideosNew\Anger_Sadness\008 he-anger%28+laughing%29-old.mp4" />
+    <Content Include="VideosNew\Anger_Sadness\008 he-anger%28+laughing%29.mp4" />
+    <Content Include="VideosNew\Anger_Sadness\009 he-anger+%28disapointment%29.mp4" />
+    <Content Include="VideosNew\Anger_Sadness\010 he-anger++.mp4" />
+    <Content Include="VideosNew\Bravo.mp4" />
+    <Content Include="VideosNew\Joy\001 he-joy+%28satisfaction%29.mp4" />
+    <Content Include="VideosNew\Joy\001-2 she_joy++.mp4" />
+    <Content Include="VideosNew\Joy\002 he-joy%28short%29+anger%28long%29.mp4" />
+    <Content Include="VideosNew\Joy\003 he-joy+%28cut.3-14s%29.mp4" />
+    <Content Include="VideosNew\Joy\004 he-joy+.mp4" />
+    <Content Include="VideosNew\Joy\005 he-joy%28anticipation%29.mp4" />
+    <Content Include="VideosNew\Joy\006 he-joy++.mp4" />
+    <Content Include="VideosNew\Joy\007 he-joy++.mp4" />
+    <Content Include="VideosNew\Joy\008 he-joy%28+surprise%29.mp4" />
+    <Content Include="VideosNew\Joy\009 he-joy%28anticipation_new.phone%29.mp4" />
+    <Content Include="VideosNew\Joy\010 he-joy+%28anticipation_tablet%29.mp4" />
+    <Content Include="VideosNew\Joy\011 he-joy%28laughing%29.mp4" />
+    <Content Include="VideosNew\Surprise\001 he-surprise.mp4" />
+    <Content Include="Videos\badSound.mp3" />
+    <Content Include="Videos\goodSound.mp3" />
+    <Content Include="Videos\he-joy-anticipation_tablet.mp4" />
+    <Content Include="Videos\he-joy-laughing.mp4" />
+    <Content Include="Videos\videos-metadata.json" />
+    <Content Include="Videos\thumbnails-metadata.json" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Learn.html" />
+    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
+    <Content Include="Scripts\jquery.color-2.1.2.js" />
+    <Content Include="Scripts\jquery.color-2.1.2.min.js" />
+    <Content Include="Scripts\jquery.color.svg-names-2.1.2.js" />
+    <Content Include="Scripts\jquery.color.svg-names-2.1.2.min.js" />
+    <Content Include="Scripts\My\Gallery.js" />
+    <Content Include="Scripts\My\index.js" />
+    <Content Include="Scripts\My\Play.js" />
+    <Content Include="Scripts\My\Learn.js" />
+    <Content Include="Scripts\My\MainMenu.js" />
+    <Content Include="Scripts\My\PleaseRotate.js" />
+    <Content Include="Styles\common.css" />
+    <Content Include="Styles\gallery.css" />
+    <Content Include="Styles\index.css" />
+    <Content Include="Styles\learn.css" />
+    <Content Include="Styles\learn_video_controls.css" />
+    <Content Include="Styles\main_menu.css" />
+    <Content Include="Videos\Sample1.mp4" />
+    <Content Include="Videos\winSound.mp3" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="VideosNew\Kircho-New-030519\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52288</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:52288/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

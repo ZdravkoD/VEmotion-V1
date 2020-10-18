@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\GoogleDrive\Duridanov\WebApplication1\Deployed2</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>12/07/2018 23:53:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>12/07/2018 23:53:35</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>12/07/2018 23:53:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>12/07/2018 23:53:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>12/07/2018 23:53:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>12/07/2018 23:53:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>12/07/2018 23:53:33</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>12/07/2018 23:53:33</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>12/07/2018 23:53:33</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>12/07/2018 23:53:33</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>12/07/2018 23:53:33</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>12/07/2018 23:53:33</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>12/07/2018 23:53:33</publishTime>
+    </File>
+    <File Include="bin/WebApplication1.dll">
+      <publishTime>10/18/2020 18:39:43</publishTime>
+    </File>
+    <File Include="bin/WebApplication1.pdb">
+      <publishTime>10/18/2020 18:39:43</publishTime>
+    </File>
+    <File Include="Gallery.html">
+      <publishTime>05/20/2019 21:48:46</publishTime>
+    </File>
+    <File Include="HtmlPage1.html">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Images/anger.png">
+      <publishTime>05/14/2019 00:14:50</publishTime>
+    </File>
+    <File Include="Images/disgust.png">
+      <publishTime>05/14/2019 00:32:58</publishTime>
+    </File>
+    <File Include="Images/favicon.ico">
+      <publishTime>12/07/2018 23:53:51</publishTime>
+    </File>
+    <File Include="Images/fear.png">
+      <publishTime>05/14/2019 00:46:16</publishTime>
+    </File>
+    <File Include="Images/ic_button_back.png">
+      <publishTime>12/07/2018 23:53:51</publishTime>
+    </File>
+    <File Include="Images/ic_gallery.png">
+      <publishTime>12/07/2018 23:53:51</publishTime>
+    </File>
+    <File Include="Images/ic_media_ff.png">
+      <publishTime>12/07/2018 23:53:50</publishTime>
+    </File>
+    <File Include="Images/ic_media_fullscreen.png">
+      <publishTime>12/07/2018 23:53:50</publishTime>
+    </File>
+    <File Include="Images/ic_media_pause.png">
+      <publishTime>12/07/2018 23:53:50</publishTime>
+    </File>
+    <File Include="Images/ic_media_play.png">
+      <publishTime>12/07/2018 23:53:50</publishTime>
+    </File>
+    <File Include="Images/ic_media_rew.png">
+      <publishTime>12/07/2018 23:53:50</publishTime>
+    </File>
+    <File Include="Images/ic_next.png">
+      <publishTime>05/22/2019 17:01:12</publishTime>
+    </File>
+    <File Include="Images/ic_rewind.png">
+      <publishTime>05/22/2019 17:12:23</publishTime>
+    </File>
+    <File Include="Images/image.png">
+      <publishTime>12/07/2018 23:53:50</publishTime>
+    </File>
+    <File Include="Images/joy.png">
+      <publishTime>05/14/2019 00:33:08</publishTime>
+    </File>
+    <File Include="Images/loading.gif">
+      <publishTime>12/07/2018 23:53:50</publishTime>
+    </File>
+    <File Include="Images/neutral.png">
+      <publishTime>05/14/2019 00:45:20</publishTime>
+    </File>
+    <File Include="Images/pause-512.png">
+      <publishTime>03/29/2019 10:16:45</publishTime>
+    </File>
+    <File Include="Images/right.png">
+      <publishTime>03/29/2019 10:44:16</publishTime>
+    </File>
+    <File Include="Images/sad.png">
+      <publishTime>05/14/2019 00:48:56</publishTime>
+    </File>
+    <File Include="Images/surprise.png">
+      <publishTime>05/14/2019 00:09:38</publishTime>
+    </File>
+    <File Include="Images/test.gif">
+      <publishTime>03/28/2019 20:36:54</publishTime>
+    </File>
+    <File Include="Images/thumbnail-he-joy-anticipation.png">
+      <publishTime>04/25/2019 19:36:57</publishTime>
+    </File>
+    <File Include="Images/thumbnail-he-joy-anticipation_tablet.png">
+      <publishTime>04/30/2019 11:56:30</publishTime>
+    </File>
+    <File Include="Images/thumbnail-he-joy-laughing.png">
+      <publishTime>04/25/2019 19:39:54</publishTime>
+    </File>
+    <File Include="Images/thumbs/001 he-joy+%28satisfaction%29.png">
+      <publishTime>04/30/2019 11:50:26</publishTime>
+    </File>
+    <File Include="Images/thumbs/001 he-sadness++.png">
+      <publishTime>04/30/2019 11:36:44</publishTime>
+    </File>
+    <File Include="Images/thumbs/001 he-surprise.png">
+      <publishTime>04/30/2019 11:57:42</publishTime>
+    </File>
+    <File Include="Images/thumbs/001-2 she_joy++.png">
+      <publishTime>04/30/2019 11:51:01</publishTime>
+    </File>
+    <File Include="Images/thumbs/002 he-anger++.png">
+      <publishTime>04/30/2019 11:37:46</publishTime>
+    </File>
+    <File Include="Images/thumbs/002 he-joy%28short%29+anger%28long%29.png">
+      <publishTime>04/30/2019 11:51:42</publishTime>
+    </File>
+    <File Include="Images/thumbs/002 he-sadness++.png">
+      <publishTime>04/30/2019 11:38:58</publishTime>
+    </File>
+    <File Include="Images/thumbs/003 he-anger++.png">
+      <publishTime>04/30/2019 11:40:02</publishTime>
+    </File>
+    <File Include="Images/thumbs/003 he-joy+%28cut3-14s%29.png">
+      <publishTime>04/30/2019 11:52:22</publishTime>
+    </File>
+    <File Include="Images/thumbs/003 he-sadness++ %28+anger%29.png">
+      <publishTime>04/30/2019 11:40:41</publishTime>
+    </File>
+    <File Include="Images/thumbs/004 he-anger++ %28short joy%29.png">
+      <publishTime>04/30/2019 11:42:26</publishTime>
+    </File>
+    <File Include="Images/thumbs/004 he-joy+.png">
+      <publishTime>04/30/2019 11:53:18</publishTime>
+    </File>
+    <File Include="Images/thumbs/005 he-anger.png">
+      <publishTime>04/30/2019 11:43:19</publishTime>
+    </File>
+    <File Include="Images/thumbs/005 he-joy%28anticipation%29.png">
+      <publishTime>04/30/2019 11:53:49</publishTime>
+    </File>
+    <File Include="Images/thumbs/006 he-anger.png">
+      <publishTime>04/30/2019 11:43:51</publishTime>
+    </File>
+    <File Include="Images/thumbs/006 he-joy++.png">
+      <publishTime>04/30/2019 11:54:16</publishTime>
+    </File>
+    <File Include="Images/thumbs/007 he-joy++.png">
+      <publishTime>04/30/2019 11:54:40</publishTime>
+    </File>
+    <File Include="Images/thumbs/008 he-anger%28+laughing%29.png">
+      <publishTime>04/30/2019 11:46:45</publishTime>
+    </File>
+    <File Include="Images/thumbs/008 he-joy%28+surprise%29.png">
+      <publishTime>04/30/2019 11:55:22</publishTime>
+    </File>
+    <File Include="Images/thumbs/009 he-anger+%28disapointment%29.png">
+      <publishTime>04/30/2019 11:47:42</publishTime>
+    </File>
+    <File Include="Images/thumbs/009 he-joy%28anticipation_new_phone%29.png">
+      <publishTime>04/30/2019 11:55:56</publishTime>
+    </File>
+    <File Include="Images/thumbs/010 he-anger++.png">
+      <publishTime>04/30/2019 11:48:49</publishTime>
+    </File>
+    <File Include="Images/thumbs/010 he-joy+%28anticipation_tablet%29.png">
+      <publishTime>04/30/2019 11:56:30</publishTime>
+    </File>
+    <File Include="Images/thumbs/011 he-joy%28laughing%29.png">
+      <publishTime>04/30/2019 11:56:53</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/001 he-sadness++.png">
+      <publishTime>04/30/2019 11:36:44</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/001-2 she_joy++.png">
+      <publishTime>04/30/2019 11:51:01</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/002 he-anger++.png">
+      <publishTime>04/30/2019 11:37:46</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/005 he-anger.png">
+      <publishTime>04/30/2019 11:43:19</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/007 he-joy++.png">
+      <publishTime>04/30/2019 11:54:40</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/009 he-anger+%28disapointment%29.png">
+      <publishTime>04/30/2019 11:47:42</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/anger-002 he-joy%28short%29+anger%28long%29.png">
+      <publishTime>05/16/2019 17:55:22</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/anger-002 he-sadness++.png">
+      <publishTime>05/16/2019 17:16:15</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/anger-003 he-anger++.png">
+      <publishTime>05/16/2019 17:18:45</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/anger-003 he-sadness++ %28+anger%29.png">
+      <publishTime>05/16/2019 17:23:19</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/anger-004 he-anger++ %28short joy%29.png">
+      <publishTime>04/30/2019 11:42:26</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/anger-006 he-anger.png">
+      <publishTime>04/30/2019 11:43:51</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/anger-010 he-anger++.png">
+      <publishTime>04/30/2019 11:48:49</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/joy-001 he-joy+%28satisfaction%29.png">
+      <publishTime>04/30/2019 11:50:26</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/joy-002 he-joy%28short%29+anger%28long%29.png">
+      <publishTime>04/30/2019 11:51:42</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/joy-003 he-joy+%28cut3-14s%29.png">
+      <publishTime>04/30/2019 11:52:22</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/joy-004 he-anger++ %28short joy%29.png">
+      <publishTime>05/16/2019 17:26:05</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/joy-004 he-joy+.png">
+      <publishTime>04/30/2019 11:53:18</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/joy-005 he-joy%28anticipation%29.png">
+      <publishTime>04/30/2019 11:53:49</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/joy-006 he-joy++.png">
+      <publishTime>04/30/2019 11:54:16</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/joy-008 he-anger%28+laughing%29.png">
+      <publishTime>04/30/2019 11:46:45</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/joy-008 he-joy%28+surprise%29.png">
+      <publishTime>04/30/2019 11:55:22</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/joy-009 he-joy%28anticipation_new_phone%29.png">
+      <publishTime>04/30/2019 11:55:56</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/joy-010 he-joy+%28anticipation_tablet%29.png">
+      <publishTime>04/30/2019 11:56:30</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/joy-011 he-joy%28laughing%29.png">
+      <publishTime>04/30/2019 11:56:53</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/neutral-001 he-surprise.png">
+      <publishTime>05/16/2019 18:04:08</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/neutral-003 he-anger++.png">
+      <publishTime>05/16/2019 17:19:50</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/neutral-003 he-joy+%28cut3-14s%29.png">
+      <publishTime>05/16/2019 17:56:30</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/neutral-003 he-sadness++ %28+anger%29.png">
+      <publishTime>05/16/2019 17:24:18</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/neutral-004 he-anger++ %28short joy%29.png">
+      <publishTime>05/16/2019 17:27:03</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/neutral-004 he-joy+.png">
+      <publishTime>05/16/2019 17:56:30</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/neutral-005 he-joy%28anticipation%29.png">
+      <publishTime>05/16/2019 17:58:17</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/neutral-008 he-anger%28+laughing%29.png">
+      <publishTime>05/16/2019 17:30:24</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/neutral-008 he-joy%28+surprise%29.png">
+      <publishTime>05/16/2019 18:00:04</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/neutral-009 he-joy%28anticipation_new_phone%29.png">
+      <publishTime>05/16/2019 18:00:56</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/neutral-010 he-joy+%28anticipation_tablet%29.png">
+      <publishTime>05/16/2019 18:02:03</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/neutral-011 he-joy%28laughing%29.png">
+      <publishTime>05/16/2019 18:03:20</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/sad-001 he-anger+ %28 +sadness%29.png">
+      <publishTime>05/16/2019 17:13:06</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/sad-002 he-sadness++.png">
+      <publishTime>04/30/2019 11:38:58</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/sad-003 he-sadness++ %28+anger%29.png">
+      <publishTime>04/30/2019 11:40:41</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/sad1-002 he-sadness++.png">
+      <publishTime>05/16/2019 17:14:38</publishTime>
+    </File>
+    <File Include="Images/thumbsNew/surprise-001 he-surprise.png">
+      <publishTime>04/30/2019 11:57:42</publishTime>
+    </File>
+    <File Include="Images/won.png">
+      <publishTime>03/29/2019 12:40:42</publishTime>
+    </File>
+    <File Include="Images/wrong.png">
+      <publishTime>03/29/2019 10:44:03</publishTime>
+    </File>
+    <File Include="Images/_ic_button_back.png">
+      <publishTime>07/12/2018 23:53:50</publishTime>
+    </File>
+    <File Include="Images/_ic_gallery.png">
+      <publishTime>07/12/2018 23:53:50</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>05/15/2019 14:15:21</publishTime>
+    </File>
+    <File Include="Learn.html">
+      <publishTime>05/22/2019 17:22:20</publishTime>
+    </File>
+    <File Include="MainMenu.html">
+      <publishTime>12/07/2018 23:53:35</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>12/07/2018 23:53:35</publishTime>
+    </File>
+    <File Include="Play.html">
+      <publishTime>05/15/2019 16:07:09</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.js">
+      <publishTime>12/07/2018 23:54:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.js">
+      <publishTime>12/07/2018 23:54:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.map">
+      <publishTime>12/07/2018 23:54:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.js">
+      <publishTime>12/07/2018 23:54:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.js">
+      <publishTime>12/07/2018 23:54:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.map">
+      <publishTime>12/07/2018 23:54:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery.color-2.1.2.js">
+      <publishTime>12/07/2018 23:54:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery.color-2.1.2.min.js">
+      <publishTime>12/07/2018 23:54:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery.color.svg-names-2.1.2.js">
+      <publishTime>12/07/2018 23:54:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery.color.svg-names-2.1.2.min.js">
+      <publishTime>12/07/2018 23:54:00</publishTime>
+    </File>
+    <File Include="Scripts/My/Gallery.js">
+      <publishTime>05/20/2019 21:35:50</publishTime>
+    </File>
+    <File Include="Scripts/My/index.js">
+      <publishTime>03/22/2019 20:32:11</publishTime>
+    </File>
+    <File Include="Scripts/My/JavaScript.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Scripts/My/Learn.js">
+      <publishTime>06/21/2019 10:01:55</publishTime>
+    </File>
+    <File Include="Scripts/My/MainMenu.js">
+      <publishTime>05/20/2019 21:22:40</publishTime>
+    </File>
+    <File Include="Scripts/My/Play.js">
+      <publishTime>05/22/2019 17:18:13</publishTime>
+    </File>
+    <File Include="Scripts/My/PleaseRotate.js">
+      <publishTime>12/07/2018 23:54:00</publishTime>
+    </File>
+    <File Include="Scripts/My/Utils.js">
+      <publishTime>12/07/2018 23:54:00</publishTime>
+    </File>
+    <File Include="Styles/common.css">
+      <publishTime>12/07/2018 23:54:01</publishTime>
+    </File>
+    <File Include="Styles/gallery.css">
+      <publishTime>12/07/2018 23:54:01</publishTime>
+    </File>
+    <File Include="Styles/index.css">
+      <publishTime>12/07/2018 23:54:01</publishTime>
+    </File>
+    <File Include="Styles/learn.css">
+      <publishTime>05/20/2019 14:48:11</publishTime>
+    </File>
+    <File Include="Styles/learn_video_controls.css">
+      <publishTime>05/22/2019 17:22:55</publishTime>
+    </File>
+    <File Include="Styles/main_menu.css">
+      <publishTime>12/07/2018 23:54:01</publishTime>
+    </File>
+    <File Include="Styles/styles.css">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Styles/video_controls.css">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Videos/badSound.mp3">
+      <publishTime>09/29/2017 16:41:23</publishTime>
+    </File>
+    <File Include="Videos/goodSound.mp3">
+      <publishTime>09/29/2017 16:41:23</publishTime>
+    </File>
+    <File Include="Videos/he-joy-anticipation_tablet.mp4">
+      <publishTime>12/07/2018 23:54:06</publishTime>
+    </File>
+    <File Include="Videos/he-joy-laughing.mp4">
+      <publishTime>12/07/2018 23:54:04</publishTime>
+    </File>
+    <File Include="Videos/Sample1.mp4">
+      <publishTime>12/07/2018 23:54:02</publishTime>
+    </File>
+    <File Include="Videos/thumbnails-metadata.json">
+      <publishTime>05/16/2019 18:53:08</publishTime>
+    </File>
+    <File Include="Videos/videos-metadata.json">
+      <publishTime>06/20/2019 18:56:50</publishTime>
+    </File>
+    <File Include="Videos/winSound.mp3">
+      <publishTime>09/29/2017 16:41:23</publishTime>
+    </File>
+    <File Include="VideosNew/004 he-anger++ %28short.joy%29.mp4">
+      <publishTime>04/24/2019 21:39:08</publishTime>
+    </File>
+    <File Include="VideosNew/Anger_Sadness/001 he-anger+ %28 +sadness%29.mp4">
+      <publishTime>04/15/2019 17:34:52</publishTime>
+    </File>
+    <File Include="VideosNew/Anger_Sadness/001 he-sadness++.mp4">
+      <publishTime>08/09/2018 05:11:28</publishTime>
+    </File>
+    <File Include="VideosNew/Anger_Sadness/002 he-anger++.mp4">
+      <publishTime>08/09/2018 06:05:02</publishTime>
+    </File>
+    <File Include="VideosNew/Anger_Sadness/002 he-sadness++.mp4">
+      <publishTime>08/09/2018 05:12:02</publishTime>
+    </File>
+    <File Include="VideosNew/Anger_Sadness/003 he-anger++.mp4">
+      <publishTime>08/09/2018 05:12:08</publishTime>
+    </File>
+    <File Include="VideosNew/Anger_Sadness/003 he-sadness++ %28+anger%29.mp4">
+      <publishTime>08/09/2018 05:12:20</publishTime>
+    </File>
+    <File Include="VideosNew/Anger_Sadness/004 he-anger++ %28short.joy%29.mp4">
+      <publishTime>04/24/2019 21:38:10</publishTime>
+    </File>
+    <File Include="VideosNew/Anger_Sadness/005 he-anger.mp4">
+      <publishTime>08/09/2018 05:12:26</publishTime>
+    </File>
+    <File Include="VideosNew/Anger_Sadness/006 he-anger-old.mp4">
+      <publishTime>04/24/2019 21:41:10</publishTime>
+    </File>
+    <File Include="VideosNew/Anger_Sadness/006 he-anger.mp4">
+      <publishTime>05/03/2019 20:02:54</publishTime>
+    </File>
+    <File Include="VideosNew/Anger_Sadness/007 he-anger+.mp4">
+      <publishTime>08/09/2018 05:12:42</publishTime>
+    </File>
+    <File Include="VideosNew/Anger_Sadness/008 he-anger%28+laughing%29-old.mp4">
+      <publishTime>08/09/2018 05:12:46</publishTime>
+    </File>
+    <File Include="VideosNew/Anger_Sadness/008 he-anger%28+laughing%29.mp4">
+      <publishTime>05/03/2019 20:28:08</publishTime>
+    </File>
+    <File Include="VideosNew/Anger_Sadness/009 he-anger+%28disapointment%29.mp4">
+      <publishTime>08/09/2018 05:12:52</publishTime>
+    </File>
+    <File Include="VideosNew/Anger_Sadness/010 he-anger++.mp4">
+      <publishTime>04/24/2019 21:43:22</publishTime>
+    </File>
+    <File Include="VideosNew/Bravo.mp4">
+      <publishTime>04/15/2019 17:32:49</publishTime>
+    </File>
+    <File Include="VideosNew/Joy/001 he-joy+%28satisfaction%29.mp4">
+      <publishTime>05/03/2019 19:05:16</publishTime>
+    </File>
+    <File Include="VideosNew/Joy/001-2 she_joy++.mp4">
+      <publishTime>08/09/2018 05:13:12</publishTime>
+    </File>
+    <File Include="VideosNew/Joy/002 he-joy%28short%29+anger%28long%29.mp4">
+      <publishTime>05/03/2019 19:15:34</publishTime>
+    </File>
+    <File Include="VideosNew/Joy/003 he-joy+%28cut.3-14s%29.mp4">
+      <publishTime>05/03/2019 19:22:16</publishTime>
+    </File>
+    <File Include="VideosNew/Joy/004 he-joy+.mp4">
+      <publishTime>08/09/2018 05:13:36</publishTime>
+    </File>
+    <File Include="VideosNew/Joy/005 he-joy%28anticipation%29.mp4">
+      <publishTime>08/09/2018 05:13:44</publishTime>
+    </File>
+    <File Include="VideosNew/Joy/006 he-joy++.mp4">
+      <publishTime>08/09/2018 05:13:50</publishTime>
+    </File>
+    <File Include="VideosNew/Joy/007 he-joy++.mp4">
+      <publishTime>08/09/2018 05:13:56</publishTime>
+    </File>
+    <File Include="VideosNew/Joy/008 he-joy%28+surprise%29.mp4">
+      <publishTime>08/09/2018 05:14:06</publishTime>
+    </File>
+    <File Include="VideosNew/Joy/009 he-joy%28anticipation_new.phone%29.mp4">
+      <publishTime>05/03/2019 19:35:36</publishTime>
+    </File>
+    <File Include="VideosNew/Joy/010 he-joy+%28anticipation_tablet%29.mp4">
+      <publishTime>05/03/2019 19:42:02</publishTime>
+    </File>
+    <File Include="VideosNew/Joy/011 he-joy%28laughing%29.mp4">
+      <publishTime>08/09/2018 05:14:24</publishTime>
+    </File>
+    <File Include="VideosNew/Surprise/001 he-surprise.mp4">
+      <publishTime>05/03/2019 19:51:52</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/18/2020 18:24:57</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
