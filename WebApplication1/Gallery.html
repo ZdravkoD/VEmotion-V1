@@ -38,7 +38,7 @@
         const thumbs = actual_JSON['thumbnails'];
         Object.keys(thumbs).forEach(function (thumbKey) {      
         //this links them to their video (as a button)
-            gallery.innerHTML += '<button class="hover_button gallery-thumbnail-button"> <img id="' + encodeURI(thumbs[thumbKey]['video']) + '" class="button_image" src="' + encodeURI(thumbs[thumbKey]['thumbnail']) + '" draggable="false" /> </button>';
+            gallery.innerHTML += '<button class="hover_button gallery-thumbnail-button"> <img id="' + encodeURI(thumbs[encodeURI(thumbKey)]['video']).replace(/\+/g, "%2B") + '" class="button_image" src="' + encodeURI(thumbs[encodeURI(thumbKey)]['thumbnail']).replace(/\+/g, "%2B") + '" draggable="false" /> </button>';
         });
 
     });

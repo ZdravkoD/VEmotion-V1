@@ -36,9 +36,9 @@ function load_stuff() {
         const videos = actual_JSON['videos'];
         arrVideoList = [];
         Object.keys(videos).forEach(function (videoKey) {      
-            var emots = videos[videoKey]['emotions']; 
-            var tims = videos[videoKey]['times'];
-            var newVid = new arrVideo(videos[videoKey]['video'], emots, tims);
+            var emots = encodeURI(videos[videoKey]['emotions']).replace(/\+/g, "%2B");
+            var tims = encodeURI(videos[videoKey]['times']).replace(/\+/g, "%2B");
+            var newVid = new arrVideo(encodeURI(videos[videoKey]['video']).replace(/\+/g, "%2B"), emots, tims);
             arrVideoList.push(newVid);
         });
         console.log("LOAD STUFF");

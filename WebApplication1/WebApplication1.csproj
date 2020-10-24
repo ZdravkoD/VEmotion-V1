@@ -89,7 +89,7 @@
     <Content Include="Images\right.png" />
     <Content Include="Images\sad.png" />
     <Content Include="Images\surprise.png" />
-    <None Include="manifest.json" />
+    <Content Include="manifest.json" />
     <Content Include="Images\test.gif" />
     <Content Include="Images\thumbnail-he-joy-anticipation.png" />
     <Content Include="Images\thumbnail-he-joy-anticipation_tablet.png" />
@@ -104,13 +104,13 @@
     <Content Include="Images\thumbsNew\anger-002-he-sadness++.png" />
     <Content Include="Images\thumbsNew\anger-003-he-anger++.png" />
     <Content Include="Images\thumbsNew\anger-003-he-sadness++%28+anger%29.png" />
-    <Content Include="Images\thumbsNew\anger-004-he-anger++%28short joy%29.png" />
+    <Content Include="Images\thumbsNew\anger-004-he-anger++%28short-joy%29.png" />
     <Content Include="Images\thumbsNew\anger-006-he-anger.png" />
     <Content Include="Images\thumbsNew\anger-010-he-anger++.png" />
     <Content Include="Images\thumbsNew\joy-001-he-joy+%28satisfaction%29.png" />
     <Content Include="Images\thumbsNew\joy-002-he-joy%28short%29+anger%28long%29.png" />
     <Content Include="Images\thumbsNew\joy-003-he-joy+%28cut3-14s%29.png" />
-    <Content Include="Images\thumbsNew\joy-004-he-anger++%28short joy%29.png" />
+    <Content Include="Images\thumbsNew\joy-004-he-anger++%28short-joy%29.png" />
     <Content Include="Images\thumbsNew\joy-004-he-joy+.png" />
     <Content Include="Images\thumbsNew\joy-005-he-joy%28anticipation%29.png" />
     <Content Include="Images\thumbsNew\joy-006-he-joy++.png" />
@@ -122,8 +122,8 @@
     <Content Include="Images\thumbsNew\neutral-001-he-surprise.png" />
     <Content Include="Images\thumbsNew\neutral-003-he-anger++.png" />
     <Content Include="Images\thumbsNew\neutral-003-he-joy+%28cut3-14s%29.png" />
-    <Content Include="Images\thumbsNew\neutral-003-he-sadness++ %28+anger%29.png" />
-    <Content Include="Images\thumbsNew\neutral-004-he-anger++%28short joy%29.png" />
+    <Content Include="Images\thumbsNew\neutral-003-he-sadness++%28+anger%29.png" />
+    <Content Include="Images\thumbsNew\neutral-004-he-anger++%28short-joy%29.png" />
     <Content Include="Images\thumbsNew\neutral-004-he-joy+.png" />
     <Content Include="Images\thumbsNew\neutral-005-he-joy%28anticipation%29.png" />
     <Content Include="Images\thumbsNew\neutral-008-he-anger%28+laughing%29.png" />

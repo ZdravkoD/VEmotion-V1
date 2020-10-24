@@ -2,3 +2,6 @@ Deployed
 Deployed2
 WebApplication1/bin
 WebApplication1/obj
+.vs/**/.suo
+.vs/**/slnx.sqlite
+**/MyProfile.pubxml.user
