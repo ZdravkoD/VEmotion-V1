@@ -44,10 +44,6 @@ function matchClicked(nam) {
 }
 
 $('.gallery-thumbnail-button').click(function () {
-    //console.log('Playing ' + this.childNodes[1].id);
-    //$('#gallery-back').click();
-    //Learn_setVideo(this.childNodes[1].id);
-
     _gallery_prevDiv.style.display = 'inline';
     divGallery.style.display = 'none';
 

@@ -113,17 +113,6 @@ function CheckNew() {
                 var lastTime = arrVideoList[0].times[ind * 2];
                 var nextTime = arrVideoList[0].times[ind * 2 + 1];
 
-                ////for old time format
-                // if(ind == arrVideoList[0].times.length - 1) {
-                //     nextTime = Learn_video.duration;
-                // }
-                // if(ind > 0) {
-                //     lastTime = arrVideoList[0].times[ind - 1];
-                // }
-                // else {
-                //     lastTime = 0;
-                // }
-
                 if(Learn_video.currentTime >= lastTime && Learn_video.currentTime <= nextTime) {
                     if(compare[1] == arrVideoList[0].emotions[ind]) {
                         newAnim(compare[1], "Images/right.png", 600);
@@ -197,6 +186,9 @@ function newAnim(emot, img, duration) {
 }
 
 function animOn(emot, img) {
+    console.log("animOn...");
+    console.log(emot);
+    console.log(img);
     document.getElementById(emot + "-overlay").src = img;
     $("#" + emot + "-overlay").animate({opacity: 0.75}, 100);
 }
@@ -457,30 +449,15 @@ function Train() {
         var nextTime = arrVideoList[0].times[i * 2 + 1]; //arrVideoList[0].times[i * 2 + 1];
         console.log("train");
 
-        // //for first range between 0 and X, old time format
-        // if(i > 0) {
-        //     lastTime = arrVideoList[0].times[i-1];
-        // }
-        // else {
-        //     lastTime = 0;
-        // }
-
         if(!areAnimated[i] && Learn_video.currentTime <= nextTime && Learn_video.currentTime >= lastTime) {
             console.log("anim: " + arrVideoList[0].emotions[i] + " to: " + nextTime);
             areAnimated[i] = true;
             animOn(arrVideoList[0].emotions[i], "Images/right.png");
-            //var animTime = (nextTime - lastTime) / 2 * 1000;
-            //newAnim(arrVideoList[0].emotions[i], "Images/right.png", animTime); //was 1500ms
-            //document.getElementById(arrVideoList[0].emotions[i] + "-overlay").style.opacity = 0.6;
         }
         if(areAnimated[i] && Learn_video.currentTime > nextTime) {
             console.log("stop: " + arrVideoList[0].emotions[i] + " , passed " + nextTime);
             stopAnim(arrVideoList[0].emotions[i]);
             areAnimated[i] = false;
-
-            //$("#" + arrVideoList[0].emotions[i]+ "-overlay").stop();
-            //$("#" + arrVideoList[0].emotions[i] + "-overlay").animate({opacity: 0.0}, 100);
-            //document.getElementById(arrVideoList[0].emotions[i] + "-overlay").style.opacity = 0;
         }
     }
 
@@ -567,7 +544,7 @@ function LoadVideoFromGallery(video) {
 
 function Learn_setVideo(video, emotion) {
     if(arrVideoList.length > 0) {
-        //console.log("Set video to: " + arrVideoList[0].name);
+        console.log("Set video to: " + arrVideoList[0].name);
         Learn_video.src = arrVideoList[0].name;
         console.log(arrVideoList[0].emotions);
         areAnimated = [false, false, false, false];

@@ -55,7 +55,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/24/2020 23:44:06</publishTime>
     </File>
     <File Include="Gallery.html">
-      <publishTime>10/24/2020 23:38:36</publishTime>
+      <publishTime>10/25/2020 00:04:54</publishTime>
     </File>
     <File Include="HtmlPage1.html">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -418,7 +418,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/07/2018 23:54:00</publishTime>
     </File>
     <File Include="Scripts/My/Gallery.js">
-      <publishTime>05/20/2019 21:35:50</publishTime>
+      <publishTime>10/25/2020 00:02:37</publishTime>
     </File>
     <File Include="Scripts/My/index.js">
       <publishTime>03/22/2019 20:32:11</publishTime>
@@ -427,10 +427,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Scripts/My/Learn.js">
-      <publishTime>06/21/2019 10:01:55</publishTime>
+      <publishTime>10/25/2020 00:18:31</publishTime>
     </File>
     <File Include="Scripts/My/MainMenu.js">
-      <publishTime>10/24/2020 23:39:31</publishTime>
+      <publishTime>10/25/2020 00:30:42</publishTime>
     </File>
     <File Include="Scripts/My/Play.js">
       <publishTime>05/22/2019 17:18:13</publishTime>
